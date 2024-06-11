@@ -1,1 +1,1 @@
-# User Stats (FastAPÌ + React)
+# User Stats (FastAPI + React)

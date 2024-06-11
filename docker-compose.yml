@@ -25,3 +25,11 @@ services:
     depends_on:
       db:
         condition: service_started
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
